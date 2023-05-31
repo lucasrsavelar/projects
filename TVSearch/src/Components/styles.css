@@ -1,0 +1,54 @@
+.inputDiv {
+  display: flex;
+  width: 50vw;
+  align-items: center;
+}
+
+.inputBox {
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+.inputButton {
+    width: 80px;
+    height: 34px;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: grey;
+    position: relative;
+}
+
+.show {
+    list-style: none;
+    border: 2px solid black;
+    padding: 30px;
+    margin: 20px 25px;
+    max-width: 210px;
+
+  }
+
+ .showName {
+    position: relative;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+
+  }
+
+  .showGenre {
+    position: relative;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+
+  }
+
+  .showBox {
+    display: flex;
+    flex-flow: row wrap;
+   
+  }
